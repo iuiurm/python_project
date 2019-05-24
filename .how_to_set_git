@@ -1,0 +1,52 @@
+1. git 설치
+
+2. git bash 실행
+
+3. git config --global user.name 이름
+
+4. git config --global user.email 이메일 이름
+
+
+5. pycharm 의 터미널의 git bash로 설정한다
+
+6. ctrl alt s 누르고 검색 돋보기에 teminal 누름
+
+shell path 설정한다
+
+설정경로는 -> program file -> git -> bin - > bash.exe
+
+
+7. 새로운 project 생성
+
+git init 치면 master라고 뜸
+
+8. git에 안올리길 추천하는 폴더들을 설정한다.
+
+touch. gitignore
+
+venv/
+.IDEA/
+
+를 gitignore 파일에 입력
+
+
+
+9. gitignore.io 사이트 활용하기.
+
+ => 사이트에서 python , pytcharm , windows 검색
+
+
+올리는건 git add ~~ 파일이름
+
+
+10. git commit 으로 원하는 image snaptshot 찍어서 올린다
+
+git commit -m 'Markdown 사용법'
+
+-m 은 message를 남기겠다는 말.
+
+
+11. git log 를 통해서 commit 내용 확인 가능
+
+12. git add . => 모든파일 add
+
