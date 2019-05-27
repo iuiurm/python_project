@@ -1,0 +1,12 @@
+import random
+
+# menu 리스트를 만들어주세요
+
+menu = ['땡기면','소풍','백수산','이태리부대','양자강','돈까스부페']
+choice = random.choice(menu)
+
+phonebook = {'땡기면' : '1212','소풍' : '2323','백수산' : '1044','이태리부대' : '2822','양자강' : '0413','돈까스부페' : '5678'}
+
+
+print(choice, phonebook[choice])
+print(f'오늘의 점심은 {choice} 입니다.')
