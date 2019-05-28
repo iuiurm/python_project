@@ -10,6 +10,7 @@ response  = requests.get(url).text
 soup = BeautifulSoup(response, 'html.parser')
 
 results = soup.find_all('span', class_='ah_k')
+
 # 2번 크롤링 되는 이유는 크롤링 Tag의 문제
 # tag를 더 정확한걸 가져오면 문제 해결됨. 지금 현재
 #2번 반복되는중.
